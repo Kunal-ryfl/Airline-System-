@@ -24,7 +24,7 @@ header{
 }
 .navlinks ul a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(122, 115, 115);
     /* margin: 0 1.2em; */
     font-size: 2.1vmin;
     font-weight: bolder;
@@ -129,10 +129,14 @@ border: thin solid black;
 
 }
 
-.image{
 
+
+.image{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
     /* background-color: #4492d8; */
-    height: 20em;
+    height: 27em;
     width: 80%;
     margin: 4em auto;
     border-radius: 10px;
@@ -144,9 +148,6 @@ border: thin solid black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.image:hover{
-    transform: scale(1.03);
-}
 
 .links{
     width: 80%;
@@ -161,7 +162,7 @@ border: thin solid black;
     width: 25%;
     height: 100%;
     margin:0 1px ;
-    border:thin solid black;
+    border:thin solid  #494545;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,3 +326,33 @@ footer img:hover{
     transform: scale(1.1);
 }
 
+
+
+
+.dark{
+ padding: 2px 6px;
+ border: #4d4c4c thin solid;
+ border-radius: 15px;
+ transition: 0.5s linear;
+ cursor: pointer;
+}
+
+.body-dark{
+    background-color: #181818;
+    color: white;
+}
+.navlinks-dark{
+    background-color: black;
+    color: white;
+}
+.navbar-dark{
+    background-color: black;
+    color: white;
+}
+.covid-dark{
+    background-color: rgb(78, 74, 74);
+}
+.box-dark{
+    background-color: rgb(78, 74, 74);
+   
+}
