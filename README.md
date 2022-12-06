@@ -1,5 +1,5 @@
 # Airline-System-
-Airline Management Website (Educational Purpose)
+Airline Management Website (2nd sem frontend project training)
 
 Frontend (till now)
 
